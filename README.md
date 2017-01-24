@@ -47,16 +47,8 @@ import time
 #set GPIO
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7,GPIO.OUT)
-
-#set up counter
-counter=0
-
-#set up a variable for reed
-reed_state=0
-
-#Im ready
+#code
 print "I'm ready to turn lights on"
-
 while True:
         print "Lights are ON"
         GPIO.output(7,1)

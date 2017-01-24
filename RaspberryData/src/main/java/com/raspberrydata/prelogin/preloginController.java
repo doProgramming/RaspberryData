@@ -11,5 +11,20 @@ public class preloginController {
 	public String welcome(){
 		return "welcome";
 	}
+	
+	@RequestMapping(value="/test", method=RequestMethod.GET)
+	public String test(){
+		return "test";
+	}
+	
+	@RequestMapping(value="/pageLogin", method=RequestMethod.GET)
+	public String preLogin(){
+		return "pageLogin";
+	}
+	
+	@RequestMapping(value="/info", method=RequestMethod.GET)
+	public String info(){
+		return "info";
+	}
 
 }

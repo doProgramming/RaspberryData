@@ -5,7 +5,7 @@ The application is build for user who want a remote control of RaspberryPi.
 We will have some type of robot, and it will be possible to move it by remote (web page, android...)
 For now it has a sensor for humidity, temperature, led lights and it can measure the distance from objects.
 
-python code-Let's measure the distance
+#Python code-Let's measure the distance
 
 #Library add
 import time
@@ -40,7 +40,7 @@ GPIO.cleanup()
 
 
 
-Python code-TURN LIGHTS ON
+#Python code-TURN LIGHTS ON
 #Import gpio
 import RPi.GPIO as GPIO
 import time
